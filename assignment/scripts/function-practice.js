@@ -72,24 +72,18 @@ let arr
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-function find(value, array) {
-array= ["jim", "bill", "tim", "john", "joe"]
+var array= ["jim", "bill", "tim", "john", "joe"]
 console.log(array.length)
+function find(value, array) {
 for(i =0; i < array.length; i++) {
-  if(array[i] = "tim") {
+  if(array[i] === value) {
     return true;
+       }
+    }
+    return false;
   }
-  console.log(array[i])
-} if (ar) {
   
-} else {
-  
-} (i = 0; i > array.length; i++) {
 
-}
-
-
-}
 
 // ----------------------
 // Stretch Goals
