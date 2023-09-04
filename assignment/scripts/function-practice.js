@@ -37,16 +37,16 @@ function addNumbers(firstNumber, secondNumber ) {
  'firstNumber + secondNumber';
   console.log('together value',firstNumber, secondNumber)}
 
-
+console.log(addNumbers);
 // 4. Function to multiply three numbers & return the result
 function multiplyThree() {
   firstNumber = 2;
   secondNumber = 4;
   thirdNumber = 3;
-  return firstNumber * secondNumber * thirdNumber;
+  return firstNumber * secondNumber * thirdNumber;}
 
 
-console.log('multiplied value',)}
+console.log('multiplied value', multiplyThree);
 
 
 // 5. Function that will return true if a number is positive, 
@@ -57,6 +57,7 @@ function isPositive(number) {
   } else (number<0)
   return false;
 }
+console.log(isPositive);
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 
@@ -68,7 +69,7 @@ let result = array.pop();
 return result;
 }
 let arr
-
+console.log(getLast);
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
@@ -82,7 +83,7 @@ for(i =0; i < array.length; i++) {
     }
     return false;
   }
-  
+  console.log(find);
 
 
 // ----------------------
